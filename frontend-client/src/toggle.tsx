@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './toggle.css'; // Importamos los estilos CSS
-import { BiAdjust, BiMoon, BiSun  } from "react-icons/bi";
+import { BiAdjust, BiMoon, BiSolidMoon, BiSun, BiSolidSun, BiSolidAdjust   } from "react-icons/bi";
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState('light');
@@ -20,13 +20,13 @@ const ThemeToggle = () => {
   return (
     <div className="theme-toggle-container">
       <button onClick={() => toggleTheme('light')} className={`theme-toggle-btn ${theme === 'light' ? 'active' : ''}`}>
-        {theme === 'light' ? <BiSun /> : <BiSun />}
+        {theme === 'light' ? <BiSolidSun /> : <BiSun />}
       </button>
       <button onClick={() => toggleTheme('dark')} className={`theme-toggle-btn ${theme === 'dark' ? 'active' : ''}`}>
-        {theme === 'dark' ? <BiMoon /> : <BiMoon />}
+        {theme === 'dark' ? <BiSolidMoon /> : <BiMoon />}
       </button>
       <button onClick={() => toggleTheme('system')} className={`theme-toggle-btn ${theme === 'system' ? 'active' : ''}`}>
-        <span><BiAdjust /></span>
+        <span>{theme === 'light' ? <BiSolidAdjust /> : <BiAdjust />}</span>
       </button>
     </div>
   );
