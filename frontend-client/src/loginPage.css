@@ -21,7 +21,13 @@
   background-color: var(--card-background-color);
   border-radius: var(--amplify-radii-medium);
   box-shadow: var(--card-shadow);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Agregamos transición a la sombra y al tamaño */
+  transform: translateY(0); /* Agregamos una transformación inicial para el efecto de relieve */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ajustamos la sombra al hacer hover */
+  transform: translateY(-4px); /* Agregamos un desplazamiento hacia arriba al hacer hover para dar un efecto de relieve */
 }
 
 .heading {
