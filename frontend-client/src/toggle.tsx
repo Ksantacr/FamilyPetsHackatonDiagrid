@@ -40,13 +40,13 @@ const ThemeToggle = () => {
     <div className="card theme-toggle-card">
       <div className="theme-toggle-container">
         <button onClick={() => toggleTheme('light')} className={`theme-toggle-btn ${theme === 'light' ? 'active' : ''}`}>
-          {theme === 'light' ? <BiSolidSun color="#ffd700" size={20} /> : <BiSun size={20}/>}
+          {theme === 'light' ? <BiSolidSun color="#ffd700" size={20} /> : <BiSun color="#ffd700" size={20}/>}
         </button>
         <button onClick={() => toggleTheme('dark')} className={`theme-toggle-btn ${theme === 'dark' ? 'active' : ''}`}>
           {theme === 'dark' ? <BiSolidMoon color="#483d8b" size={20} /> : <BiMoon color="#483d8b" size={20}/>}
         </button>
         <button onClick={() => toggleTheme('system')} className={`theme-toggle-btn ${theme === 'system' ? 'active' : ''}`}>
-          {theme === 'light' ? <BiSolidAdjust color="#808080" size={20} /> : <BiAdjust size={20}/>}
+          {theme === 'light' ? <BiSolidAdjust color="#808080" size={20} /> : <BiAdjust color="#808080" size={20}/>}
         </button>
       </div>
     </div>
