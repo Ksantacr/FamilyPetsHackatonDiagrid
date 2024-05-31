@@ -1,9 +1,19 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { signIn, signUp } from './authService';
+import { 
+  Button, 
+  Flex, 
+  Heading, 
+  TextField, 
+  View, 
+  Divider 
+} from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import './loginPage.css';
+import ThemeToggle from './toggle'; // Importa el componente ThemeToggle
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -12,7 +22,7 @@ const LoginPage = () => {
   const [isSignUp, setIsSignUp] = useState(false);
   const navigate = useNavigate();
 
-  const handleSignIn = async (e: { preventDefault: () => void; }) => {
+  const handleSignIn = async (e) => {
     e.preventDefault();
     try {
       const session = await signIn(email, password);
@@ -32,7 +42,7 @@ const LoginPage = () => {
     }
   };
 
-  const handleSignUp = async (e: { preventDefault: () => void; }) => {
+  const handleSignUp = async (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
       alert('Passwords do not match');
@@ -47,51 +57,58 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="loginForm">
-      <h1>Welcome</h1>
-      <h4>{isSignUp ? 'Sign up to create an account' : 'Sign in to your account'}</h4>
-      <form onSubmit={isSignUp ? handleSignUp : handleSignIn}>
-        <div>
-          <input
-            className="inputText"
-            id="email"
+    <Flex
+      direction="column"
+      alignItems="center"
+      justifyContent="center"
+      padding="large"
+      className="page-container"
+    >
+      <ThemeToggle /> {/* Agrega el componente ThemeToggle aquí */}
+      <View className="card">
+        <Heading level={3} textAlign="center">{isSignUp ? 'Create Account' : 'Sign In'}</Heading>
+        <Divider marginTop="medium" marginBottom="medium" />
+        <form onSubmit={isSignUp ? handleSignUp : handleSignIn}>
+          <TextField
+            name="email"
+            label="Email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Email"
+            placeholder="Enter your email"
             required
+            marginBottom="medium"
           />
-        </div>
-        <div>
-          <input
-            className="inputText"
-            id="password"
+          <TextField
+            name="password"
+            label="Password"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Password"
+            placeholder="Enter your password"
             required
+            marginBottom="medium"
           />
-        </div>
-        {isSignUp && (
-          <div>
-            <input
-              className="inputText"
-              id="confirmPassword"
+          {isSignUp && (
+            <TextField
+              name="confirmPassword"
+              label="Confirm Password"
               type="password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
-              placeholder="Confirm Password"
+              placeholder="Confirm your password"
               required
+              marginBottom="medium"
             />
-          </div>
-        )}
-        <button type="submit">{isSignUp ? 'Sign Up' : 'Sign In'}</button>
-      </form>
-      <button onClick={() => setIsSignUp(!isSignUp)}>
-        {isSignUp ? 'Already have an account? Sign In' : 'Need an account? Sign Up'}
-      </button>
-    </div>
+          )}
+          <Button type="submit" variation="primary" isFullWidth>{isSignUp ? 'Sign Up' : 'Sign In'}</Button>
+        </form>
+        <Divider marginTop="medium" marginBottom="medium" />
+        <Button onClick={() => setIsSignUp(!isSignUp)} variation="link" isFullWidth>
+          {isSignUp ? 'Already have an account? Sign In' : 'Need an account? Sign Up'}
+        </Button>
+      </View>
+    </Flex>
   );
 };
 

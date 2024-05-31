@@ -1,0 +1,94 @@
+/* loginPage.css */
+
+/* ... (resto del código CSS previo) ... */
+
+.page-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: var(--amplify-space-large);
+  background-color: var(--card-background-color);
+  border-radius: var(--amplify-radii-medium);
+  box-shadow: var(--card-shadow);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.heading {
+  color: var(--heading-color);
+}
+
+.text-field-label {
+  color: var(--label-color);
+}
+
+/* Modo claro */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #f0f4f8;
+    --card-background-color: white;
+    --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    --text-color: black;
+    --heading-color: black;
+    --label-color: gray;
+  }
+}
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --card-background-color: #1e1e1e;
+    --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+    --text-color: white;
+    --heading-color: white;
+    --label-color: lightgray;
+  }
+}
+
+/* Forzando tema basado en preferencia del usuario */
+[data-theme='light'] {
+  --background-color: #f0f4f8;
+  --card-background-color: white;
+  --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --text-color: black;
+  --heading-color: black;
+  --label-color: gray;
+}
+
+[data-theme='dark'] {
+  --background-color: #121212;
+  --card-background-color: #1e1e1e;
+  --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+  --text-color: white;
+  --heading-color: white;
+  --label-color: lightgray;
+}
+
+.theme-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.theme-toggle button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.theme-toggle .active {
+  font-weight: bold;
+}

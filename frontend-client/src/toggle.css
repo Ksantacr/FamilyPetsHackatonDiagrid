@@ -1,0 +1,21 @@
+.theme-toggle-btn {
+    background: transparent;
+    border: none;
+    font-size: 16px; /* Reducimos el tamaño de la fuente */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 4px; /* Añadimos un pequeño relleno para hacer el botón más pequeño */
+  }
+  
+  .theme-toggle-btn.light {
+    color: #f0e68c; /* Color amarillo */
+  }
+  
+  .theme-toggle-btn.dark {
+    color: #483d8b; /* Color azul oscuro */
+  }
+  
+  .theme-toggle-btn:hover {
+    transform: scale(1.2);
+  }
+  
