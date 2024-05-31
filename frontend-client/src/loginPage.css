@@ -3,7 +3,7 @@
 /* ... (resto del código CSS previo) ... */
 
 .page-container {
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: var(--background-color);
   transition: background-color 0.3s ease;
@@ -53,9 +53,26 @@
     --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
     --text-color: white;
     --heading-color: white;
-    --label-color: lightgray;
+    --label-color: #dddddd; /* Cambiamos el color de las etiquetas a un gris más claro */
+  }
+
+  .amplify-heading--3 {
+    color: var(--label-color); /* Aplicamos el color de etiqueta a los labels */
+  }
+
+  /* Cambiar el color del label en los inputs de texto */
+  .amplify-label {
+    color: var(--text-color);
+  }
+
+  /* Cambiar el color del texto en los inputs de texto */
+  .amplify-input{
+    color: var(--text-color);
   }
 }
+
+
+
 
 /* Forzando tema basado en preferencia del usuario */
 [data-theme='light'] {
