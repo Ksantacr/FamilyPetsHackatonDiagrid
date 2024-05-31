@@ -1,21 +1,55 @@
-.theme-toggle-btn {
-    background: transparent;
+.theme-toggle-card {
+    display: flex;
+    align-items: center; /* Alinear verticalmente el contenido del card */
+    justify-content: center; /* Alinear horizontalmente el contenido del card */
+    padding: 1rem; /* Agregar relleno alrededor del contenido */
+  }
+  
+  .theme-toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5rem; /* Reducir la altura del contenedor */
+  }
+  
+  .theme-toggle-btn {
+    background-color: transparent;
     border: none;
-    font-size: 16px; /* Reducimos el tamaño de la fuente */
     cursor: pointer;
-    transition: transform 0.3s ease;
-    padding: 4px; /* Añadimos un pequeño relleno para hacer el botón más pequeño */
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem; /* Ajustar el espacio alrededor de los iconos */
+    transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease; /* Transición suave */
   }
   
-  .theme-toggle-btn.light {
-    color: #f0e68c; /* Color amarillo */
+  .theme-toggle-btn.active {
+    background-color: #e0e0e0;
+    border-radius: 50%;
   }
   
-  .theme-toggle-btn.dark {
-    color: #483d8b; /* Color azul oscuro */
+  .theme-toggle-btn:focus {
+    box-shadow: none; /* Eliminar el borde del enfoque */
+    border: none;
   }
   
   .theme-toggle-btn:hover {
-    transform: scale(1.2);
+    transform: scale(1.1); /* Escalar ligeramente al hacer hover */
+  }
+  
+  .theme-toggle-btn.light:hover {
+    color: black; /* Cambiar el color del icono al hacer hover en modo claro */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Agregar sombra al hacer hover en modo claro */
+    border: none; /* Eliminar el borde al hacer hover en modo claro */
+  }
+  
+  .theme-toggle-btn.dark:hover {
+    color: white; /* Cambiar el color del icono al hacer hover en modo oscuro */
+  }
+
+  .theme-toggle-btn:focus,
+  .theme-toggle-btn:focus-visible {
+    outline: none; /* Eliminar el borde de enfoque */
   }
   

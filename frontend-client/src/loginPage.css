@@ -5,7 +5,6 @@
 .page-container {
   height: 100%;
   width: 100%;
-  background-color: var(--background-color);
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
@@ -36,7 +35,7 @@
 /* Modo claro */
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #f0f4f8;
+    background-color: var(--background-color);
     --card-background-color: white;
     --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     --text-color: black;
@@ -48,7 +47,7 @@
 /* Modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #121212;
+    background-color: var(--background-color);
     --card-background-color: #1e1e1e;
     --card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
     --text-color: white;
