@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\",
+  "WorkspaceRootPath": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|d:\\workspace\\hackaton\\ui\\familypetshackatondiagrid\\backend\\petcenterservices\\controllers\\petcentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|solutionrelative:controllers\\petcentercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|c:\\users\\vnk2\\documents\\familypetshackatondiagrid\\mainapp\\familypetshackatondiagrid\\backend\\petcenterservices\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|d:\\workspace\\hackaton\\ui\\familypetshackatondiagrid\\backend\\petcenterservices\\models\\request\\reportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|solutionrelative:models\\request\\reportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|c:\\users\\vnk2\\documents\\familypetshackatondiagrid\\mainapp\\familypetshackatondiagrid\\backend\\petcenterservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|c:\\users\\vnk2\\documents\\familypetshackatondiagrid\\mainapp\\familypetshackatondiagrid\\backend\\petcenterservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C8CC56A-04D0-4FE2-BC8B-2560CA1548DB}|PetCenter.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportRequest.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Models\\Request\\ReportRequest.cs",
-              "RelativeDocumentMoniker": "Models\\Request\\ReportRequest.cs",
-              "ToolTip": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Models\\Request\\ReportRequest.cs",
-              "RelativeToolTip": "Models\\Request\\ReportRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T20:44:56.666Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PetCenterController.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Controllers\\PetCenterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PetCenterController.cs",
-              "ToolTip": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Controllers\\PetCenterController.cs",
-              "RelativeToolTip": "Controllers\\PetCenterController.cs",
-              "ViewState": "AQIAABkAAACAMjMzM7MhwCgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T18:41:47.684Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-02T19:51:13.851Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T19:50:13.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-02T19:41:23.957Z"
             }
           ]
         }

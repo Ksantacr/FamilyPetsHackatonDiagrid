@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj": {}
+    "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj": {
+    "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj",
+        "projectUniqueName": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj",
         "projectName": "PetCenter",
-        "projectPath": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj",
-        "packagesPath": "C:\\Users\\Raiden\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\Hackaton\\UI\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\obj\\",
+        "projectPath": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\PetCenter.csproj",
+        "packagesPath": "C:\\Users\\vnk2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vnk2\\Documents\\FamilyPetsHackatonDiagrid\\MainApp\\FamilyPetsHackatonDiagrid\\backend\\PetCenterServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raiden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vnk2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "c:\\program files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,9 +51,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Amazon.AspNetCore.Identity.Cognito": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Amazon.Extensions.CognitoAuthentication": {
+              "target": "Package",
+              "version": "[2.5.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -74,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

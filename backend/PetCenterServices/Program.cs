@@ -6,6 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+// Adds Amazon Cognito as Identity Provider
+builder.Services.AddCognitoIdentity();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -22,7 +26,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+// If not already enabled, you will need to enable ASP.NET Core authentication
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
