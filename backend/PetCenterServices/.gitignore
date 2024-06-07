@@ -7,6 +7,11 @@ obj/
 .vs/
 bin/
 
+.vs/PetCenterServices
+.vs/PetCenterServices/v17
+obj/Debug/
+obj/Debug/net8.0
+
 # dotenv files
 .env
 

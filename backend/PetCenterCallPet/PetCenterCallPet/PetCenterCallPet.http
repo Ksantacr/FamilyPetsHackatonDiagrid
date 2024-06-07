@@ -1,0 +1,6 @@
+@PetCenterCallPet_HostAddress = http://localhost:5049
+
+GET {{PetCenterCallPet_HostAddress}}/api/PetCaller/
+Accept: application/json
+
+###
