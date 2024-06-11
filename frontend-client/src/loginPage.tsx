@@ -13,7 +13,6 @@ import {
 } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import './loginPage.css';
-import ThemeToggle from './toggle'; // Importa el componente ThemeToggle
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -64,8 +63,10 @@ const LoginPage = () => {
       padding="large"
       className="page-container"
     >
-      <ThemeToggle /> {/* Agrega el componente ThemeToggle aquí */}
       <View className="card">
+        <div className='mb-5'>
+          <img src="./familypet.png" width={200} />
+        </div>        
         <Heading level={3} textAlign="center">{isSignUp ? 'Create Account' : 'Sign In'}</Heading>
         <Divider marginTop="medium" marginBottom="medium" />
         <form onSubmit={isSignUp ? handleSignUp : handleSignIn}>

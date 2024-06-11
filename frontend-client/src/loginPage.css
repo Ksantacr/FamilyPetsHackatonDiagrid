@@ -114,3 +114,7 @@
 .theme-toggle .active {
   font-weight: bold;
 }
+
+.mb-5 {
+  margin-bottom: 2em;
+}
