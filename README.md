@@ -9,21 +9,32 @@ through a seamless, transparent and compassionate process using Diagrid Catalyst
 
 ## How it works
 
-### __FamilyPets__:
-Your partner in finding lost pets. Reunite families.
-
-### Features
-
 1. User Registration: Users can create a new account. 
 2. Pet Reporting: After a successful login, users can report found or lost pets. 
 3. Image Matching: Every 12 hours, PetWorkflow runs to update image matches between found and lost pets. 
 4. Rewards: Users are rewarded for their contributions.
 
-![alt text](./images/image.png)
 
-## Catalyst Workflow
+### Workflows
 
-![alt text](./images/workflowcatalyst.png)
+| ![User Workflow](./images/image.png) | 
+|:------------------------------------:| 
+|           *User Workflow*            |
+
+
+
+| ![App Workflow](./images/workflowimgvalidation.png) | 
+|:----------------------------------------------:| 
+|               *Pet Service App*                |
+
+
+
+| ![App Workflow](./images/familypetsworkflow.png) | 
+|:------------------------------------------------:| 
+|              *Diagrid PetWorkflow*               |
+
+
+
 
 ## Project structure
 
