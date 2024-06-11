@@ -46,7 +46,7 @@ namespace PetCenterCallPet.Controllers
 
                     await _client.InvokeMethodAsync(HttpMethod.Get, "target-pet", "api/petcenter");
                     // var result =  { new request should has: S3 url / other request information }
-                    return Ok(); 
+                    return Ok();
                 }
                 ModelState.AddModelError("ImageFile", "No file selected.");
             }

@@ -502,3 +502,6 @@ backend/PetCenterServices/.vs/PetCenterServices/v17/.suo
 backend/PetCenterServices/dev-familypethackaton.yaml
 backend/PetCenterServices/obj/PetCenter.csproj.nuget.g.props
 backend/PetCenterServices/obj/Debug/net8.0/PetCenter.AssemblyInfo.cs
+backend/PetWorkflow/.diagrid/config.json
+backend/PetWorkflow/aws-beanstalk-tools-defaults.json
+backend/PetWorkflow/.diagrid/creds
