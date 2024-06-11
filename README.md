@@ -42,12 +42,12 @@ Your partner in finding lost pets. Reunite families.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/Ksantacr/FamilyPetsHackatonDiagrid.git`
-2. Add setting for `frontend-client` app
-   3. Follow README.md instructions
-3. Add setting for backend projects
-   4. PetCenterCallPet: README.md
-   5. PetCenterServices: README.md
-   6. PetWorkflow: README.md
+1. Add setting for `frontend-client` app
+   1. Follow [README.md](https://github.com/Ksantacr/FamilyPetsHackatonDiagrid/tree/main/frontend-client) instructions
+1. Add setting for backend projects
+   1. PetCenterCallPet: [README.md](https://github.com/Ksantacr/FamilyPetsHackatonDiagrid/tree/main/backend/PetCenterServices)
+   1. PetCenterServices: [README.md](https://github.com/Ksantacr/FamilyPetsHackatonDiagrid/tree/main/backend/PetCenterServices)
+   1. PetWorkflow: [README.md](https://github.com/Ksantacr/FamilyPetsHackatonDiagrid/tree/main/backend/PetWorkflow)
 
 ## Resources
 
