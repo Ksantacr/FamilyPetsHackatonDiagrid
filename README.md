@@ -34,7 +34,28 @@ through a seamless, transparent and compassionate process using Diagrid Catalyst
 |              *Diagrid PetWorkflow*               |
 
 
+## PetFamilyWorkflow
 
+```mermaid
+graph TB
+    A[Start]
+    B{MLModel is STOPPED}
+    C[Init Reknogition Model and Wait]
+    D[Get list images from S3 bucket]
+    E([for each Image in Images])
+    E1[DetectCustomLabelsAsync]
+    F[Add metadata and move to new bucket]
+    G[Stop model]
+    H[END]
+    A --> |"input: {modelArn}"| B
+    B --> |"[Yes]: {STOPPED}"| C
+    B --> |"[No]: {RUNNING}"| H
+    C --> D
+    D --> |"Images[]"| E
+    E -->|"input: {Image}"| E1-->|"output: {breed} {confidence}"| F
+    F --> G
+    G --> H
+```
 
 ## Project structure
 
