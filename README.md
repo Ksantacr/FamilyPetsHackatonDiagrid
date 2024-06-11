@@ -1,4 +1,6 @@
-# FamilyPet
+# FamilyPets
+
+![alt text](./images/familypet.png)
 
 ## Mission
 
@@ -7,10 +9,10 @@ through a seamless, transparent and compassionate process using Diagrid Catalyst
 
 ## How it works
 
-PetFamily: Find your lost pet.
+### __FamilyPets__:
+Your partner in finding lost pets. Reunite families.
 
 ### Features
-
 
 1. User Registration: Users can create a new account. 
 2. Pet Reporting: After a successful login, users can report found or lost pets. 
