@@ -61,8 +61,6 @@ graph TB
 
 > Folder structure for backend and frontend apps
 
-### A typical top-level directory layout
-
     .
     ├── backend                  # 3 Projects build .NET
     │   ├── PetWorkflow          # In charge of loading the model and process images
